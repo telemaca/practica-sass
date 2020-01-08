@@ -1,0 +1,189 @@
+body {
+    background: linear-gradient(180deg, #e0e0ea 0%, #a6adbd 100%);
+    margin: 0;
+    font-family: 'Nunito Sans';
+    height: 130vh;
+    font-weight: 900;
+}
+
+section{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    padding: 50px;
+}
+
+aside{
+    background: linear-gradient(180deg, #f2959e 0%, #ea7a90 100%);
+    width: 650px;
+    color: white;
+    padding: 80px 50px 30px 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    img{
+        width: 90px;
+        border-radius: 50%;
+    }
+}
+
+.user-info{
+    display: flex;
+    justify-content: center;
+
+    &-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-left: 30px;
+    }
+
+    &-name{
+        font-size: 18px;
+    }
+
+    a{
+        font-size: 13px;
+        letter-spacing: 3px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+nav{
+    padding: 100px 0 0 100px;
+    color: #f8cece;
+    font-size: 13px;
+    letter-spacing: 5px;
+
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+
+    li:nth-child(2){
+        color: white;
+    }
+
+    li{
+        padding-bottom: 30px;
+        display: flex;
+        align-items: center;
+
+        &:hover{
+            cursor: pointer;
+        }
+
+        &:nth-child(5){
+            padding-top: 150px;
+        }
+    }
+
+    i{
+        font-size: 28px;
+        padding-right: 20px;
+    }
+}
+
+
+
+
+// MEMBERS SECTION
+
+main{
+    background-color: #f3f4f8;
+    padding: 95px 50px 30px 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.main-text{
+    padding-bottom: 20px;
+    font-weight: 700;
+
+    &-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &-row + .main-text-row{
+        margin-top: 10px;
+    }
+
+    &-title{
+        font-size: 18px;
+    }
+
+    &-members{
+        color: #b2b1bb;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    &-available-members{
+        color: #6b6b6b;
+    }
+    
+    &-title,
+    &-members,
+    &-available-members {
+        margin: 0;
+    }
+
+    &-members-view{
+        font-weight: 900;
+        color: #ea7a90;
+        font-size: 14px;
+        letter-spacing: 2px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+
+// MEMBERS CARDS
+
+.members-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.member{
+    width: 30%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+    &-photo{
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    &-name{
+        font-size: 14px;
+        letter-spacing: 2px;
+        color: #ea7a90;
+        margin-bottom: 0;
+    }
+
+    &-country{
+        color: #97969d;
+        font-size: 13px;
+        font-weight: bolder;
+    }
+
+    &-info{
+        color: #686769;
+        font-weight: bolder;
+        width: 150px;
+        line-height: 30px;
+    }
+}

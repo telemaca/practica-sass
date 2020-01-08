@@ -1,0 +1,158 @@
+body {
+  background: linear-gradient(180deg, #e0e0ea 0%, #a6adbd 100%);
+  margin: 0;
+  font-family: 'Nunito Sans';
+  height: 130vh;
+  font-weight: 900;
+}
+
+section {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  padding: 50px;
+}
+
+aside {
+  background: linear-gradient(180deg, #f2959e 0%, #ea7a90 100%);
+  width: 650px;
+  color: white;
+  padding: 80px 50px 30px 50px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+aside img {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+}
+.user-info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 30px;
+}
+.user-info-name {
+  font-size: 18px;
+}
+.user-info a {
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+.user-info a:hover {
+  cursor: pointer;
+}
+
+nav {
+  padding: 100px 0 0 100px;
+  color: #f8cece;
+  font-size: 13px;
+  letter-spacing: 5px;
+}
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+nav li:nth-child(2) {
+  color: white;
+}
+nav li {
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+nav li:hover {
+  cursor: pointer;
+}
+nav li:nth-child(5) {
+  padding-top: 150px;
+}
+nav i {
+  font-size: 28px;
+  padding-right: 20px;
+}
+
+main {
+  background-color: #f3f4f8;
+  padding: 95px 50px 30px 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.main-text {
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.main-text-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-text-row + .main-text-row {
+  margin-top: 10px;
+}
+.main-text-title {
+  font-size: 18px;
+}
+.main-text-members {
+  color: #b2b1bb;
+  font-size: 14px;
+  font-weight: 700;
+}
+.main-text-available-members {
+  color: #6b6b6b;
+}
+.main-text-title, .main-text-members, .main-text-available-members {
+  margin: 0;
+}
+.main-text-members-view {
+  font-weight: 900;
+  color: #ea7a90;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.main-text-members-view:hover {
+  cursor: pointer;
+}
+
+.members-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.member {
+  width: 30%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.member-photo {
+  width: 50px;
+  border-radius: 50%;
+}
+.member-name {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #ea7a90;
+  margin-bottom: 0;
+}
+.member-country {
+  color: #97969d;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.member-info {
+  color: #686769;
+  font-weight: bolder;
+  width: 150px;
+  line-height: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
