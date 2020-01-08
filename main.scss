@@ -1,3 +1,9 @@
+// VARIABLES
+$section-border-radius: 10px;
+$pink-members: #ea7a90;
+
+// STYLE
+
 body {
     background: linear-gradient(180deg, #e0e0ea 0%, #a6adbd 100%);
     margin: 0;
@@ -14,12 +20,12 @@ section{
 }
 
 aside{
-    background: linear-gradient(180deg, #f2959e 0%, #ea7a90 100%);
+    background: linear-gradient(180deg, #f2959e 0%, $pink-members 100%);
     width: 650px;
     color: white;
     padding: 80px 50px 30px 50px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: $section-border-radius;
+    border-bottom-left-radius: $section-border-radius;
 
     img{
         width: 90px;
@@ -95,8 +101,8 @@ nav{
 main{
     background-color: #f3f4f8;
     padding: 95px 50px 30px 50px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: $section-border-radius;
+    border-bottom-right-radius: $section-border-radius;
 }
 
 .main-text{
@@ -135,7 +141,7 @@ main{
 
     &-members-view{
         font-weight: 900;
-        color: #ea7a90;
+        color: $pink-members;
         font-size: 14px;
         letter-spacing: 2px;
 
@@ -170,7 +176,7 @@ main{
     &-name{
         font-size: 14px;
         letter-spacing: 2px;
-        color: #ea7a90;
+        color: $pink-members;
         margin-bottom: 0;
     }
 
